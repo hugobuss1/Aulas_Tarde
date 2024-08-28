@@ -1,0 +1,84 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+section.introducao{
+	margin-top: 5%;
+	margin-left: 20vw;
+	width: 60vw;
+	height: 40vh;
+	background-color: #FAAD2D;
+	border-radius: 10%;
+	border: 2px solid orange;
+	} 
+	body{
+		background-color: #FA0215;
+
+	}
+	#imagem{
+		 margin-top: 2%;
+		 margin-left: 5%;
+		 margin-bottom: 5%;
+		 width: 40%;
+		 height: 80%;
+		 background-color: #73A7FA;
+		 border:2px solid #73A7FA ;
+
+	}
+	#imagem img{
+		width: 80%;
+		margin-left: 10%;
+		height:80% ;
+		margin-top: 6%;
+	}
+	#texto{
+		margin-left: 5%;
+		margin-top: 2%;
+		width: 40%;
+		height: 80%;
+		background-color: #E776FA;
+		border: 2px solid whitesmoke;
+	}
+	section.lista{
+		margin-left: 20vw;
+		margin-top: 5vh;
+		height: 40vh;
+		width: 60vw;
+		border: 2px groove whitesmoke;
+		background-color: #B000F9;
+	}
+	@media only screen and (max-width:500px){
+		section.introducao{
+	margin-top: 5%;
+	margin-left: 1vw;
+	width: 98vw;
+	height: 40vh;
+	background-color: #FAAD2D;
+	border-radius: 10%;
+	border: 2px solid orange;
+	} 
+	}
+	#texto h1{
+		text-align: center;
+		font-family: "algerian";
+		font-size: 16pt;
+		color: darkblue;
+	}
+	#texto p{
+		font-family: "Lucida Handwriting", cursive;
+		font-size: 13pt;
+		color: #1C00FA;
+		text-indent: 5%;
+	}
+	section.lista ul{
+		list-style-type: square;
+		color: darkblue;
+		font-family:"verdana"monospace;
+		font-size: 13pt;
+		margin-top: 5%;
+	}
+	
