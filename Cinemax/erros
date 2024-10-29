@@ -1,0 +1,9 @@
+(Conta cliente)
+1-alterar conta (não faz nada)
+2-redefinir senha (duplica a tela inicial)
+3-ajuda com login (não deveria estar ali "presente só no inicio no logar")
+4-excluir cliente (não faz nada)
+5-cookie
+6-cadastar mais de uma vez (sev apertar mais de uma vez no boão)
+7-problemas de cores (cor da fonte misturou com o fundo)
+8-css
